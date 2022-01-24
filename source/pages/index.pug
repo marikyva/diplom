@@ -1,0 +1,102 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(href="./styles/main.css", rel="stylesheet")
+    link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css", rel="stylesheet", integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl", crossorigin="anonymous")
+    title Document
+  body
+    section.zero 
+      .container
+        .header
+          h4 Logo Here
+          .zero-menu 
+            include ./menu.pug
+    section.home 
+      .container
+        .home-background
+          img(src="../img/back.png", alt="background")
+        .home-descr
+          .home-descr__name 
+            img(src="../img/line2.png", alt="line")
+            h5 Creative Agency
+          .home-descr__inform
+            h1 Your ideas are the orange of our eyes
+            p We craft premium digital work for web, mobile and experiential with creative agencies and global brands alike – putting passion, pride and plenty of elbow grease into everything we do.
+          .home-descr__prof
+            a(href="") Graphic design
+            a(href="") Website Mobile  dev 
+            a(href="") UI, UX design
+        .home-img  
+          img(src="../img/woman.png", alt="img")
+        .home-vector
+          img(src="../img/Vector.png", alt="vector")
+    section.services 
+      .container
+        h3 Provide awesome services
+        .services__vector
+          img(src="../img/Vector2.png", alt="vector") 
+        .services__line
+          img(src="../img/vector-line.png", alt="vector")
+      include ./info.pug
+    section.our-works 
+      .container 
+        h3 Here are some of our works
+        .our-work 
+          .our-work.app 
+            img(src="../img/app.png", alt="app")
+            .app__hover 
+              h3 Here are some of our works
+              img(src="../img/hover.png", alt="hover")
+          .our-work.web 
+            .web.ui
+             img(src="../img/web2.png", alt="web")
+            .web.ui__hover 
+              h3 Here are some of our works
+              img(src="../img/hover2.png", alt="hover")
+            .web.ux
+              img(src="../img/web.png", alt="web")   
+            .web.ux__hover
+              h3 Here are some of our works
+              img(src="../img/hover2.png", alt="hover")
+          .our-work.mobile
+            img(src="../img/mobile.png", alt="mobile")
+            .mobile__hover 
+              h3 Here are some of our works
+              img(src="../img/hover.png", alt="hover")
+        a(href="") View more
+    section.our-staff
+      .container 
+        include ./stuff.pug
+    section.our-partners
+        .our-partners.container 
+          .container__info
+            img(src="../img/image2.png", alt="img")
+            img(src="../img/image3.png", alt="img")
+            img(src="../img/image4.png", alt="img")
+            img(src="../img/image5.png", alt="img")
+            img(src="../img/image6.png", alt="img")
+    section.feedback 
+      .container
+        .feedback-contant 
+          .feedback-contant__info 
+            h3 Let us handle your project, professionally.
+            p With well written codes, we build amazing apps for all platforms, mobile and web apps in general.
+          .feedback-input 
+            .feedback-input__data
+              input(type="Your email address" placeholder= "Your email address")
+              input(type="Your name / company’s name" placeholder= "Your name / company’s name")
+            .feedback-input__message
+              input(type="Your message" placeholder= "Your message")
+              button Send
+      section.footer 
+        .container 
+          .footer-info 
+            h4 Logo Here
+            p copyright Orange labs 2020
+            p copyright Orange labs 2020
+
+
+script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js", integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0", crossorigin="anonymous")

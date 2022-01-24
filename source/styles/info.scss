@@ -1,0 +1,132 @@
+.services-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 146px;
+    .web {
+        display: flex;
+        flex-direction: column;
+        width: 256px;
+        height: 71px;
+        position: absolute;
+        top: 1041px;
+        left: 188px;
+        z-index: 100;
+        @media (max-width: $xs) {
+            top: 700px;
+            left: 30px;
+          }
+        &__rectangle {
+            width: 53px;
+            height: 53px;
+            margin-bottom: 28px;
+        }
+        &__line {
+            display: flex;
+            position: absolute;
+            top: 16px;
+            left: 15px;
+            z-index: 999;
+        }
+        .h4 {
+            width: 159px;
+            height: 10px;
+            font-family: $primaryFontRegular;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.396px;
+            color: #474747;
+        }
+        .P {
+            font-family: $primaryFontRegular;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.396px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+    }
+    .graphic {
+        display: flex;
+        flex-direction: column;
+        width: 256px;
+        height: 71px;
+        position: absolute;
+        top: 1041px;
+        left: 622px;
+        z-index: 100;
+        @media (max-width: $xs) {
+            top: 950px;
+            left: 30px;
+          }
+        &__rectangle {
+            width: 53px;
+            height: 53px;
+            margin-bottom: 28px;
+        }
+        &__line {
+            display: flex;
+            position: absolute;
+            top: 16px;
+            left: 15px;
+            z-index: 999;
+        }
+        .h4 {
+            width: 207px;
+            height: 13px;
+            font-family: $primaryFontRegular;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.396px;
+            color: #474747;
+        }
+        .P {
+            font-family: $primaryFontRegular;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.396px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+    }
+    .app {
+        display: flex;
+        flex-direction: column;
+        width: 256px;
+        height: 71px;
+        position: absolute;
+        top: 1041px;
+        left: 1055px;
+        z-index: 100;
+        @media (max-width: $xs) {
+            top: 1170px;
+            left: 30px;
+          }
+        &__rectangle {
+            width: 53px;
+            height: 53px;
+            margin-bottom: 28px;
+        }
+        &__line {
+            display: flex;
+            position: absolute;
+            top: 16px;
+            left: 15px;
+            z-index: 999;
+        }
+        .h4 {
+            width: 207px;
+            height: 13px;
+            font-family: $primaryFontRegular;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.396px;
+            color: #474747;
+        }
+        .P {
+            font-family: $primaryFontRegular;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.396px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+    }
+}

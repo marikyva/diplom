@@ -1,0 +1,14 @@
+@mixin h4 {
+    font-family: $primaryFontRegular;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.396px;
+    color: #474747;
+}
+@mixin p {
+    font-family: $primaryFontRegular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.396px;
+    color: rgba(0, 0, 0, 0.7);
+}
